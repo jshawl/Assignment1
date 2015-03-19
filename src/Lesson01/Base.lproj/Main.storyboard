@@ -70,9 +70,6 @@
                                     <segue destination="nJq-wv-z1j" kind="showDetail" id="X56-35-hPq"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="me.png" translatesAutoresizingMaskIntoConstraints="NO" id="8NF-yF-xxp">
-                                <rect key="frame" x="162" y="136" width="158" height="143"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0zk-jw-GGg">
                                 <rect key="frame" x="162" y="292" width="30" height="30"/>
                                 <state key="normal" title="Info">
@@ -82,6 +79,9 @@
                                     <segue destination="lkx-HE-mgd" kind="presentation" id="01G-JK-Wdg"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="me.png" translatesAutoresizingMaskIntoConstraints="NO" id="CuR-Dm-BVh">
+                                <rect key="frame" x="183" y="123" width="137" height="137"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
